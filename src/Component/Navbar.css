@@ -1,0 +1,34 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Adjust the background color as needed */
+    padding: 10px 20px;
+  }
+  
+  .left {
+    flex: 1;
+  }
+  
+  .right {
+    flex: 0;
+  }
+  
+  .app-title {
+    font-size: 24px;
+    color: white; /* Adjust the text color as needed */
+  }
+  
+  .cart-button {
+    padding: 10px 20px;
+    background-color: #FF5733; /* Adjust the button color as needed */
+    color: white; /* Adjust the button text color as needed */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cart-button:hover {
+    background-color: #FF8C66; /* Adjust the button color on hover as needed */
+  }
+  
